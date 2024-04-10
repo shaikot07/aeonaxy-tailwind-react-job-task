@@ -16,4 +16,17 @@
     padding-right: 24px;
     border-radius: 50px;
     text-align: center;
+    font-weight: 500;
+}
+.my-btn-outline{
+    /* background-color: #006CFE; */
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: 500;
 }

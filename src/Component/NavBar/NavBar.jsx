@@ -25,7 +25,7 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-end">
                     <a className="my-btn">Button</a>
-                    <a className="btn ml-1">Get Start</a>
+                    <a className="my-btn-outline ml-1">Get Start</a>
                     
                 </div>
             </div>
