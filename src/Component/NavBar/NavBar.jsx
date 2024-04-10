@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-red-400">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,7 +21,8 @@ const NavBar = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
+                    <img src="https://i.ibb.co/HxkFhsJ/logo.png" alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
