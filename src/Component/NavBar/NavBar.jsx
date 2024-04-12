@@ -3,7 +3,13 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     const link = <>
-        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#A855F7] hover:border-[#A855F7] hover:border-b-2 transition duration-300 focus:!text-white" to={'/'}>Home</Link> </li>
+        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Home</Link> </li>
+        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Individuals</Link> </li>
+        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Teams</Link> </li>
+        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Enterprise</Link> </li>
+        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Product</Link> </li>
+        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Pricing</Link> </li>
+        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Resources</Link> </li>
     </>
     return (
         <div>
