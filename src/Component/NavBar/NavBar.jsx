@@ -1,19 +1,19 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+
+import { Link,  } from 'react-router-dom';
 
 const NavBar = () => {
     const link = <>
-        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Home</Link> </li>
-        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Individuals</Link> </li>
-        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Teams</Link> </li>
-        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Enterprise</Link> </li>
-        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Product</Link> </li>
-        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Pricing</Link> </li>
-        <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Resources</Link> </li>
+        <li className='list-none'> <Link className="rounded-none text-black font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Home</Link> </li>
+        <li className='list-none'> <Link className="rounded-none text-black font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Individuals</Link> </li>
+        <li className='list-none'> <Link className="rounded-none text-black font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Teams</Link> </li>
+        <li className='list-none'> <Link className="rounded-none text-black font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Enterprise</Link> </li>
+        <li className='list-none'> <Link className="rounded-none text-black font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Product</Link> </li>
+        <li className='list-none'> <Link className="rounded-none text-black font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Pricing</Link> </li>
+        <li className='list-none'> <Link className="rounded-none text-black font-bold border-b-0 hover:!text-[#006CFE] hover:border-[#006CFE] hover:border-b-2 transition duration-300 focus:!text-[#006CFE]" to={'/'}>Resources</Link> </li>
     </>
     return (
         <div>
-            <div className="navbar bg-red-400">
+            <div className="navbar bg-[#FFFFFF] max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,12 +27,14 @@ const NavBar = () => {
                     <img src="https://i.ibb.co/HxkFhsJ/logo.png" alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    {link}
+                    <ul className="menu menu-horizontal px-1">
+                       {link}
+                    </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="my-btn">Button</a>
-                    <a className="my-btn-outline ml-1">Get Start</a>
-                    
+                    <a className="text-1xl font-semibold">Log In</a>
+                    <a className="my-btn ml-1">Get Start</a>
+
                 </div>
             </div>
         </div>
